@@ -1,0 +1,83 @@
+.type1 {
+  width:200px;
+  border-radius:10px;
+  margin-right:20px;
+}
+
+.type2 {
+  height:200px;
+  width:200px;
+  object-fit: cover;
+  object-position:center; 
+  margin-right:20px;
+}
+
+.type3 {
+  height:200px;
+  width:200px;
+  object-fit: cover;
+  object-position:center; 
+  border-radius:100px;
+  margin-right:20px;
+}
+
+.normal {
+  width:200px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  border-radius:3px;
+  border-width:1px;
+  margin-right:10px;
+}
+
+.google {
+  width:300px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  border-radius:15px;
+  border:none;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}
+.email {
+  color:grey;
+  margin-bottom:0px;
+}
+.email-box {
+  width:380px;
+  margin-bottom:0px;
+}
+.email-button {
+  background-color:rgb(12, 94, 166);
+  color:white;
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:380px;
+  border:none;
+  height:40px;
+  border-radius:20px;
+}
+.icon {
+  object-fit:cover;
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  vertical-align: middle;
+}
+.text-box {
+  border:none;
+  vertical-align: middle;
+}
+.upload {
+  background-color:rgb(5, 145, 180);
+  color:white;
+  font-weight:bold;
+  border:none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:20px;
+}

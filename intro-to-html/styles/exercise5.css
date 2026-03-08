@@ -1,5 +1,4 @@
-<style>
-  .first-line {
+.first-line {
     font-family: Tahoma;
     font-weight:bold;
   }
@@ -90,47 +89,29 @@
     border-radius:10px;
     margin-left:125px;
   }
-</style>
+  .price {
+    width:175px;
+  }
+  .span1 {
+    font-size:35px;
+  }
+  .span2 {
+    color:grey;
 
-<p class="first-line">
-  This is Tahoma Font.
-</p>
-<p class="shop-line1">
-  Biggest Deals of the Year!
-</p>
-<p class="shop-line2">
-  Sales end Tuesday
-</p>
-<p class="heading">
-  HTML CSS Course
-</p>
-<p class="alt">
-  Beginner to Pro
-</p>
-<p class="desc">
-  In this course, we'll learn the skills
-  you need to become a developer.
-</p>
-<button class="apply">
-    Get Started
-</button>
-<p class="learn-more">
-  <strong>Shopping for your business?</strong>
-  See how Apple at Work can help.
-  <a href="https://play.google.com/store/apps/details?id=co.thor.qensx&hl=en_IN">Learn more &#62;</a>
-</p>
-<p class="first">
-  New
-</p>
-<p class="second">
-  MacBook Pro
-</p>
-<p class="third">
-  Supercharged for pros.
-</p>
-<p class="fourth">
-  From $1999
-</p>
-<button class="buy-button">
-  Buy
-</button>
+  }
+  .span3 {
+    color:green;
+  }
+  .span4 {
+    font-weight:bold;
+  }
+  .span5 {
+    color:grey;
+  }
+  .descr {
+    margin-top:0px;
+    width:450px;
+  }
+  .span6 {
+    color:aqua;
+  }

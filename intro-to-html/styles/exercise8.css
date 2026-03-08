@@ -1,0 +1,81 @@
+input {
+  display:block;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+.chat {
+  width:225px;
+  display:inline-block;
+  vertical-align: middle;
+}
+button {
+  display: inline-block;
+  margin-right:8px;
+  vertical-align: middle;
+}
+img {
+  width:300px;
+  height:100px;
+  display: block;
+  margin-left: 400px;
+}
+.search {
+  width:400px;
+  margin-left:350px;
+  border-radius:15px;
+  border:none;
+  box-shadow:0px 3px 2px rgba(0,0,0,0.2);
+}
+.first-name ,.second-name{
+  display:inline-block;
+  border-radius:5px;
+  border-width:1px;
+  border-style:solid;
+  border-color:grey;
+}
+.email {
+  width:330px;
+  border-radius: 5px;
+  border-width:1px;
+  border-style:solid;
+  border-color:grey;
+}
+.signup {
+  background-color: rgb(5, 102, 182);
+  color:white;
+  border:none;
+  width:330px;
+  border-radius:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.ride {
+  font-size:30px;
+  margin-bottom:0px;
+}
+.field1,.field2 {
+  background-color: rgb(244, 239, 239);
+  color:grey;
+  border:none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom:10px;
+}
+.book {
+  background-color: black;
+  color:white;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border:none;
+}
+.book-later {
+  background-color: rgb(244, 239, 239);
+  color:black;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border:none;
+}

@@ -1,0 +1,109 @@
+.red-square {
+  background-color: red;
+  height: 100px;
+  width:100px;
+  
+}
+.green-circle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+}
+.service {
+  border-width: 1px;
+  border-style:solid;
+  width:300px;
+  border-color:grey;
+}
+button {
+  margin-bottom:7px;
+}
+.music {
+  background-color: black;
+  color:white;
+  width:375px;
+}
+.part1 {
+  color:white;
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:0px;
+  margin-left:7px;
+}
+.part2 {
+  color:grey;
+  margin-left:7px;
+}
+.icon {
+  object-fit:cover;
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  vertical-align: middle;
+}
+.text-box {
+  border:none;
+  vertical-align: middle;
+}
+.upload {
+  background-color:rgb(5, 145, 180);
+  color:white;
+  font-weight:bold;
+  border:none;
+  vertical-align:middle;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:20px;
+}
+.tweet {
+  width:fit-content;
+  border-radius:5px;
+  box-shadow: 0px 2px 1px rgba(0,0,0,0.4);
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:5px;
+}
+div {
+  display:inline-block;
+  padding-bottom: 0px;
+  padding-top:0px;
+  padding-right:5px;
+  box-shadow:0px 0px 2px rgba(0,0,0,0.3);
+}
+img {
+  object-fit: cover;
+  width:200px;
+  height:200px;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.name {
+  font-weight:bold;
+  font-size:25px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:4px;
+}
+
+.friends {
+  color:grey;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:4px;
+}
+.add {
+  background-color: rgb(3, 108, 152);
+  color:white;
+  border:none;
+  border-radius:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:4px;
+}
