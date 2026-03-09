@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Exercise 12</title>
+    <link rel="stylesheet" href="styles/exercise12.css">
+  </head>
+  <body>
+    <div style="display:flex;flex-direction:row;">
+      <div style="width:200px;background-color:lightblue">200px</div>
+      <div style="width:75px;background-color: lightpink;">75px</div>
+    </div>
+    <div style="display:flex;flex-direction: row;">
+      <div style="width:50px;background-color: lightblue;">item1</div>
+      <div style="flex:1;background-color: lightpink;">item2</div>
+      <div style="width:75px;background-color: lightblue;">item3</div>
+    </div>
+    <div style="display:flex;flex-direction: row;justify-content:space-between;">
+      <div style="width:45px;background-color: lightpink;">item1</div>
+      <div style="width:45px;background-color: lightpink;">item2</div>
+      <div style="width:45px;background-color: lightpink;">item3</div>
+      <div style="width:45px;background-color: lightpink;">item4</div>
+    </div>
+    <div style="display:flex;flex-direction:row;
+          height:50px;
+          justify-content:space-between;
+          align-items:center;
+          border-style:solid;
+          border-width:1px;">
+      <div style="width:45px;background-color:lightpink;">item 1</div>
+      <div style="width:45px;background-color:lightpink;">item2</div>
+    </div>
+    <div class="main">
+      <div class="sub">
+        <div class="property">Home</div> 
+        <div class="value">14</div>
+      </div>
+      <div class="sub">
+        <div class="property">Notification</div>
+        <div class="value">3</div>
+      </div>
+      <div class="sub">
+        <div class="property">Messages</div>
+        <div class="value">5</div>
+      </div>
+    </div>
+    <div class="searchbar-div">
+      <div class="home-div" style="color:white;font-weight:bold;margin-top:7px;margin-bottom: 7px;margin-left:5px;">Home</div>
+      <div class="bar-div"><input class="search" type="text" placeholder="Search"></div>
+      <div class="download-div"><button class="download"> Download</button></div>
+    </div>
+
+    <div>
+      <div class="user">
+        <div class="icon-div"><img src="images/shinzo.jpeg" style="width:50px;height:50px;object-fit: cover;border-radius:25px;"></div>
+        <div class="middle-div"><p style="font-weight:bold;">Shinzo</p><p>Happy Bulldog</p><p>Popular</p></div>
+        <div class="button-div"><button style="background: lightblue;border-radius:5px;color:white;border:none;padding:5px;">Follow</button></div>
+      </div>
+      <div class="user">
+        <div class="icon-div"><img src="images/sim.jpeg" style="width:50px;height:50px;object-fit: cover;border-radius:25px;"></div>
+        <div class="middle-div"><p style="font-weight:bold;">Sim</p><p>The cat</p><p>Popular</p></div>
+        <div class="button-div"><button style="background: lightblue;border-radius:5px;color:white;border:none;padding:5px;">Follow</button></div>
+      </div>
+      <div class="user">
+        <div class="icon-div"><img src="images/tabby.jpeg" style="width:50px;height:50px;object-fit: cover;border-radius:25px;"></div>
+        <div class="middle-div"><p style="font-weight:bold;">Tabby</p><p>Sleepy cat</p><p>Popular</p></div>
+        <div class="button-div"><button style="background: lightblue;border-radius:5px;color:white;border:none;padding:5px;">Follow</button></div>
+      </div>
+    </div>
+  </body>
+</html>

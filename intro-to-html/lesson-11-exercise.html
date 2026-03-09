@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Exercise 11</title>
+    <style>
+      .add {
+        background-color: rgb(3, 108, 152);
+        color:white;
+        border:none;
+        border-radius:10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-top:0px;
+        margin-bottom: 0px;
+        margin-left:4px;
+      }
+      .icon {
+        width:30px;
+        height:30px;
+        border-radius:15px;
+      }
+      p,button {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display:grid;grid-template-columns:200px 75px;">
+      <div style="background-color:lightblue;">
+        200px
+      </div>
+      <div style="background-color: lightpink;">
+        75px
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns: 50px 1fr 75px;">
+      <div style="background-color: lightblue;">50px</div>
+      <div style="background-color: lightpink;">remaining px</div>
+      <div style="background-color: lightblue;">75px</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;row-gap:10px;column-gap:20px;">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;column-gap:15px;">
+      <div style="box-shadow: 0px 0px 5px rgba(0,0,0,0.3);">
+        <div><img src="images/shinzo.jpeg" style="width:100%;height:300px;object-fit:cover;"></div>
+        <div><p style="font-weight:bold;">Shinzo</p></div>
+        <div>
+          <div style="display:inline-block;vertical-align: middle;"><img class="icon" src="images/1.jpeg" ></div>
+          <div style="display:inline-block;vertical-align: middle;"><p>2 mutual friends</p></div>
+        </div>
+        <div><button class="add">Add Friend</button></div>
+      </div>
+      <div style="box-shadow: 0px 0px 5px rgba(0,0,0,0.3);">
+        <div><img src="images/sim.jpeg" style="width:100%;height:300px;object-fit:cover;"></div>
+        <div><p style="font-weight:bold;">Sim</p></div>
+        <div>
+          <div style="display:inline-block;vertical-align: middle;"><img class="icon" src="images/2.jpeg" ></div>
+          <div style="display:inline-block;vertical-align: middle;"><p>2 mutual friends</p></div>
+        </div>
+        <div><button class="add">Add Friend</button></div>
+      </div>
+      <div style="box-shadow: 0px 0px 5px rgba(0,0,0,0.3);">
+        <div><img src="images/tabby.jpeg" style="width:100%;height:300px;object-fit:cover;"></div>
+        <div><p style="font-weight:bold;">Tabby</p></div>
+        <div>
+          <div style="display:inline-block;vertical-align: middle;"><img class="icon" src="images/3.jpeg" ></div>
+          <div style="display:inline-block;vertical-align: middle;"><p>2 mutual friends</p></div>
+        </div>
+        <div><button class="add">Add Friend</button></div>
+      </div>
+      
+    </div>
+  </body>
+</html>
