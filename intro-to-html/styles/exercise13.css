@@ -1,0 +1,104 @@
+.main {
+  display:flex;
+  flex-direction: row;
+  height:100px;
+  margin-bottom:30px;
+}
+.smaller {
+  display: flex;
+  flex-direction: row;
+  width:100px;
+  background-color:lightpink;
+  justify-content: center;
+  align-items: center;
+}
+.bigger {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:200px;
+  background-color:lightblue;
+}
+.main-div {
+  margin-left: 12px;
+  margin-right: 12px;
+  border-style:none;
+  border-radius:4px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.15);
+  width:450px;
+  padding-bottom:10px;
+}
+.preview-div {
+  display:flex;
+  flex-direction:row;
+  margin-left:12px;
+  margin-bottom:10px;
+  column-gap:5px;
+}
+.icon-div {
+  
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  height:50px;
+  width:50px;
+  border-radius:25px;
+}
+.email-div {
+  flex:1;
+}
+.title-div {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.short-div,.header-div {
+  font-weight:bold;
+}
+.time-div {
+  color:grey;
+  margin-right:10px;
+}
+.desc-div {
+  color:grey;
+}
+.main-tweet-div {
+  display:flex;
+  flex-direction:row;
+  width:450px;
+}
+.icon-div{
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-right:8px;
+}
+.tweet-div {
+  
+}
+.account-info-div {
+  display:flex;
+  flex-direction:row;
+  column-gap: 3px;
+}
+.message-div {
+  margin-bottom:8px;
+}
+.link-div {
+  display:flex;
+  flex-direction:row;
+  column-gap:8px;
+  border-style:solid;
+  border-radius:8px;
+  border-width:2px;
+  border-color:grey;
+}
+.website-icon-div {
+  width:100px;
+  background-color: rgb(237, 233, 233);
+}
+.website-desc-div {
+  margin-bottom:8px;
+}
