@@ -53,3 +53,42 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.sidebar-div {
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  width:300px;
+  display:flex;
+  flex-direction: row;
+}
+.accounticon-div {
+  background-color: rgb(29, 26, 26);
+  width:60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap:8px;
+  padding-top:8px;
+}
+img {
+  height:40px;
+  width:40px;
+  border-radius:20px;
+}
+.hash-div {
+  background-color: rgb(68, 62, 62);
+  flex:1;
+}
+.info-div {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-section {
+  margin-left: 8px;
+}
+.left-section {
+  margin-right: 8px;
+}

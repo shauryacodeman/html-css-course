@@ -1,16 +1,33 @@
 .thumbnail-row {
   margin-bottom:10px;
+  position: relative;
 }
 .thumbnail {
   width:100%;
 } 
+.video-time {
+  font-family:Roboto,Arial;
+  font-size:12px;
+  font-weight:600;
+  background-color: black;
+  color:white;
+  position:absolute;
+  bottom:8px;
+  right:5px;
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-right:4px;
+  padding-left:4px;
+  border-radius: 4px;
+}
 .video-info-grid {
   display: grid;
   grid-template-columns:60px 1fr;
 }
 .channel-picture {
+  position:relative;
   display:inline-block;
-  width:50px;   
+  width:40px;   
   vertical-align: top;
 }
 .profile-picture {
@@ -34,4 +51,22 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap:10px;
   row-gap:40px;
+}
+
+@media (max-width:750px) {
+  .video-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:10px;
+    row-gap:40px;
+  }
+}
+
+@media (min-width:1000px) {
+  .video-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    row-gap:40px;
+  }
 }
